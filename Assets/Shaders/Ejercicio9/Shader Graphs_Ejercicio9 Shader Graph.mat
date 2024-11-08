@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5786901919420550726
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -7,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_Ejercicio7 Shader Graph
-  m_Shader: {fileID: -6465566751694194690, guid: 3dcb9b8655da8dc44af5cdb91bcdd702,
+  m_Name: Shader Graphs_Ejercicio9 Shader Graph
+  m_Shader: {fileID: -6465566751694194690, guid: 3711546e0443a87488f28044a6d5b483,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -24,6 +37,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Main2Texture2D:
+        m_Texture: {fileID: 2800000, guid: ea825f0be51bc9b4aa113a49268c4e07, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTexture2D:
         m_Texture: {fileID: 2800000, guid: 6eea8a9a78cb75f4c83ed09d3ce02476, type: 3}
         m_Scale: {x: 1, y: -2.54}
@@ -45,18 +62,6 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _SpeedX: 1
+    - _SpeedY: 0.1
     m_Colors: []
   m_BuildTextureStacks: []
---- !u!114 &5294459732239647346
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 7
