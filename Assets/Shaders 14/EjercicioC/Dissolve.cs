@@ -23,7 +23,7 @@ public class Dissolve : MonoBehaviour
         {
             StartCoroutine(Vanish(false, true));
         }
-        if (Keyboard.current.fKey.wasPressedThisFrame)
+        if (Keyboard.current.rKey.wasPressedThisFrame)
         {
             StartCoroutine(Apper(false, true));
         }
