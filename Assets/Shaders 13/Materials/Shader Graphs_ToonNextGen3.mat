@@ -50,7 +50,7 @@ Material:
     m_Colors:
     - _AmbientColor: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 0}
     - _MainColor: {r: 1, g: 1, b: 1, a: 0}
-    - _RimColor: {r: 0.12202557, g: 0.6603774, b: 0.12148453, a: 0}
+    - _RimColor: {r: 1, g: 0.0141509175, b: 0.93790257, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &4542763244651128789
